@@ -1,0 +1,196 @@
+/* HTML text style */
+html {
+    font-family: sans-serif;
+    font-size: 14px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Home */
+.head-main {
+    font-size: 4.5em;
+    font-family: impact, sans-serif;
+}
+.head-sub-main {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.head-last {
+    font-size: 18px;
+}
+
+/* Gallery */
+.row > .column {
+    padding: 0 8px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* creates 9 equal columns that float next to each other */
+.column {
+    float: left;
+    width: 11.11%;
+}
+/* the modal background */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+/* modal content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+/* the close button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* hide the slides by default */
+.mySlides {
+    display: none;
+}
+/* next and previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+/* position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* on hover, add a back background color w/a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* number text (x/9 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+/* caption text */
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+img.thumbImgCtrl {
+    opacity: 0.6;
+}
+.active,
+.thumbImgCtrl:hover {
+    opacity: 1;
+}
+img.hover-shadow {
+    transition: 0.3s;
+}
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Contact */
+.support h2 {
+    font-size: 1.3em;
+}
+
+.support h2 span {
+    font-size: 1.5em;
+}
+
+.support form {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.support input[type="text"] {
+    font-size: 15px;
+    width: 80%;
+    border-top: 1px solid #090B0D;
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090B0D;
+    margin: 10px 1em;
+    border-radius: 7px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.change-link {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.submit input[type="submit"] {
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 3%;
+    width: 25%;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+/* Footer */
+#footer {
+    background-color: rgba(100,65,0,.3);
+    color: #000;
+    text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+}

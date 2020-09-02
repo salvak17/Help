@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Justice For Vanessa Guillen</title>
+		<meta charset="utf-8">
+		<script src="./JS/one_page_website.js"></script>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+	</head>
+	<body>
+		
+		<!-- NAV -->
+		<div class="wrap">
+			<div class="menu-container">
+				<nav class="menu">
+					<a href="#home" id="link">HOME</a> |
+					<a href="#gallery">GALLERY</a> |
+					<a href="#contact">SIGN TO SUPPORT</a>
+				</nav>
+			</div>
+		</div>
+		<!-- END NAV -->
+		
+		<!-- HOME -->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">&#35;Justice for Vanessa Guillen</span>
+				</div>
+				<div>
+				<h2>Let's hold the US Army accountable.</h2>
+				<details>
+					<summary>What happened at Fort Hood?</summary>
+					<p>Fort Hood is a US Army post located in Killeen, Texas. It is the site of Vanessa Guillen's death, 
+					where she was bludgeoned to death with a hammer in the armory room where she worked. Her body was then 
+					transported from the military installation and taken to be burned and butchered to get rid of her body. 
+					Her murder was the day before she was to report sexual harassment, when the killer found out she was 
+					going to come forward, he murdered her with a hammer, and had other accomplices. An investigation was 
+					not opened soon enough, and only started going after Vanessa's mother and family went to social media 
+					to demand they find her daughter as she was missing since April. A petition to hold the US Army 
+					accountable to fail to keep their own safe and failed to find justice is under way. Vanessa is not the 
+					first victim at Fort Hood and her body was found days after Gregory Wedel-Morales, who was found 
+					missing LAST YEAR while driving in Killeen. There have been more disappearances from Fort Hood within 
+					the past year. These men and women vowed to keep our country safe, it is time the US Army help their 
+					soldiers stay safe. Vanessa was only 20 years old. Sign the petition on Change.org.
+					</p>
+				</details>
+				</div>
+				<div>
+					<br>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/LVKo6Y3F20E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<!-- END HOME -->
+		
+		<!-- GALLERY -->
+		<!-- images used to open the lightbox -->
+		<div class="row" id="gallery">
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_1.png" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Vanessa Guillen Portrait">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_2.png" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Vanessa Guillen Mural">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_3.png" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Vanessa Guillen">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_4.png" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Vanessa Guillen Mural">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_5.png" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="Vanessa Guillen Family">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_6.png" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="Suspect">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_7.png" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="Press">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_8.png" onclick="openModal();currentSlide(8)" class="hover-shadow" alt="Suspect">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_9.png" onclick="openModal();currentSlide(9)" class="hover-shadow" alt="Fort Hood">
+			</div>
+		</div>
+		<!-- the modal/lightbox -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+				<div class="mySlides">
+					<div class="numbertext">1/9</div>
+					<img src="./Images/Thumb/thumbnail_1_wide.png" style="width:100%" alt="Vanessa Guillen Portrait">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">2/9</div>
+					<img class="ogImg" src="./Images/Thumb/thumbnail_2_wide.png" style="width:100%" alt="Vanessa Guillen Mural">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">3/9</div>
+					<img class="ogImg" src="./Images/Thumb/thumbnail_3_wide.png" style="width:100%" alt="Vanessa Guillen">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">4/9</div>
+					<img class="ogImg" src="./Images/Thumb/thumbnail_4_wide.png" style="width:100%" alt="Vanessa Guillen Mural">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">5/9</div>
+					<img class="ogImg" src="./Images/Thumb/thumbnail_5_wide.png" style="width:100%" alt="Vanessa Guillen Family">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">6/9</div>
+					<img class="ogImg" src="./Images/Thumb/thumbnail_6_wide.png" style="width:100%" alt="Suspect">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">7/9</div>
+					<img class="ogImg" src="./Images/Thumb/thumbnail_7_wide.png" style="width:100%" alt="Press">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">8/9</div>
+					<img class="ogImg" src="./Images/Thumb/thumbnail_8_wide.png" style="width:100%" alt="Suspect">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">9/9</div>
+					<img class="ogImg" src="./Images/Thumb/thumbnail_9_wide.png" style="width:100%" alt="Fort Hood">
+				</div>
+				<!-- next/previous controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<!-- caption text -->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+				<!-- thumbnail image controls -->
+				<div class="column">
+					<img class="thumbImgCtrl" src="./Images/Thumb/thumbnail_1.png" onclick="currentSlide(1)" alt="Vanessa Guillen Portrait">
+				</div>
+				<div class="column">
+					<img class="thumbImgCtrl" src="./Images/Thumb/thumbnail_2.png" onclick="currentSlide(2)" alt="Vanessa Guillen Mural">
+				</div>
+				<div class="column">
+					<img class="thumbImgCtrl" src="./Images/Thumb/thumbnail_3.png" onclick="currentSlide(3)" alt="Vanessa Guillen">
+				</div>
+				<div class="column">
+					<img class="thumbImgCtrl" src="./Images/Thumb/thumbnail_4.png" onclick="currentSlide(4)" alt="Vanessa Guillen Mural">
+				</div>
+				<div class="column">
+					<img class="thumbImgCtrl" src="./Images/Thumb/thumbnail_5.png" onclick="currentSlide(5)" alt="Vanessa Guillen Family">
+				</div>
+				<div class="column">
+					<img class="thumbImgCtrl" src="./Images/Thumb/thumbnail_6.png" onclick="currentSlide(6)" alt="Suspect">
+				</div>
+				<div class="column">
+					<img class="thumbImgCtrl" src="./Images/Thumb/thumbnail_7.png" onclick="currentSlide(7)" alt="Press">
+				</div>
+				<div class="column">
+					<img class="thumbImgCtrl" src="./Images/Thumb/thumbnail_8.png" onclick="currentSlide(8)" alt="Suspect">
+				</div>
+				<div class="column">
+					<img class="thumbImgCtrl" src="./Images/Thumb/thumbnail_9.png" onclick="currentSlide(9)" alt="Fort Hood">
+				</div>
+			</div>
+		</div>
+		<!-- END GALLERY -->
+		
+		<!-- SIGN TO SUPPORT -->
+		<section>
+			<div id="contact">
+				<div class="container">
+					<div class="heading-padding">
+						<h1 class="heading-padding">Sign to Support</h1>
+						<div class="support">
+							<h2><span>SAY HER NAME!</span>
+							<br>Sign to show support to Vanessa's family and friends.
+						
+							</h2>
+							<p class="support-text">
+								Please provide us with your basic info to show support for Vanessa's family and friends.<br>
+								<em>Other ways to help:</em>  
+								<a href="https://www.change.org/p/hold-the-us-army-military-in-ft-hood-accountable-find-vanessa-guillen" target="new">Sign the petition</a>
+							</p>
+							<div class="form-support">
+								<form action="" method="post">
+									<input class="support-input" type="text" value="First Name">
+									<input class="support-input" type="text" value="Last Name">
+									<input class="support-input" type="text" value="Email Address">
+									<div class="form-spacer">
+										<label class="change-link"><a href="https://www.change.org/p/hold-the-us-army-military-in-ft-hood-accountable-find-vanessa-guillen">Change.org</a></label>
+									</div>
+									<div class="submit">
+										<input type="submit" value="Submit">
+									</div>
+								</form>
+							</div>
+						</div>
+						</div>
+				</div>
+			</div>
+		</section>
+		<!-- END SIGN TO SUPPORT -->
+		
+		<!-- FOOTER -->
+		<div id="footer">
+			www.supportvanessaguillen.com &nbsp;|&nbsp; &copy; 2020
+		</div>
+		<!-- END FOOTER -->
+		
+	</body>
+</html>
